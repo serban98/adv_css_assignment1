@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+html{
+   scroll-behavior:smooth ;
+
+}
+
+
+     body {
+     background-color: wheat;
+     font-family: sans-serif;
+     font-size:19px;
+    
+
+     }
+
+
+     a[href^="https://www.google.com"]{
+        color:green;
+     }
+     
+    a[href^="https://www.link-group.eu/"]
+    {color:red;}
+
+       #second-div p:nth-child(even){color:red;}
+       #second-div p:nth-child(odd){color:blue;}
+
+
+
+       #first-div p:nth-child(2)::after{
+   content:"-NEW";
+   color:yellow;
+}
+#first-div p:nth-child(3)::after{
+   content:"-NEW";
+   color:yellow;
+}
+
+#second-div p:nth-child(2)::after{
+   content:"";
+   color:yellow;
+   ;}
+
+
+   #second-div p:nth-child(3)::after{
+      content:"";
+      color:yellow;
+      ;}
+
+      p:last-child:hover{
+
+         font-style: italic;
+      }
